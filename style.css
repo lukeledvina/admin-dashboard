@@ -10,7 +10,16 @@
 .sidebar {
     grid-row: 1 / 5;
     grid-column: 1 / 2;
-    background-color:aquamarine;
+    background-color:hwb(160 50% 0%);
+
+
+}
+
+.sidebar-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(1fr, 12);
+    height: 70vh;
 }
 
 .header {
@@ -22,4 +31,18 @@
 .content {
     background-color:darkkhaki;
     grid-row: 2 / 5;
+}
+
+.dashboard {
+
+}
+
+.sidebar-container > button {
+    border: none;
+    background:none;
+    
+}
+
+.sidebar-container > button:hover {
+    background-color: hwb(160 50% 30%)
 }
