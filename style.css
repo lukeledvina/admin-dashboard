@@ -69,13 +69,19 @@ body {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr;
-    gap: 5px;
+    gap: 10px;
+    margin-left: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .col-two {
     display: grid;
     grid-template-rows: 1fr 1fr;
-    gap: 20px;
+    gap: 40px;
+    margin-left: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .card {
@@ -83,6 +89,22 @@ body {
     border-radius: 5px;
 }
 
+.projects > p {
+    position: absolute;
+    top: 24%;
+}
+
 .side-card {
     background-color: beige;
+    border-radius: 5px;
+}
+
+#announcements {
+    position: absolute;
+    top:24%;;
+}
+
+#trending {
+    position: absolute;
+    bottom: 34.5%;
 }
