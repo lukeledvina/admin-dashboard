@@ -60,4 +60,29 @@ body {
     grid-row: 2 / 3;
     grid-column: 2 / 3;
     background-color: brown;
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.projects {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+
+.col-two {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+
+.card {
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+
+.side-card {
+    background-color: beige;
 }
