@@ -46,8 +46,12 @@ body {
 
 .top-row {
     display: grid;
-    grid-template-columns: 1fr 4fr 1fr 1fr 2fr;
+    grid-template-columns: 1fr 4fr 2fr 1fr 1fr;
     align-items: center;
+}
+
+.top-row > p {
+    width: 105px;
 }
 
 .top-row > input[type="search"] {
@@ -55,6 +59,23 @@ body {
     background-color: #dbeafe;
     border: none;
     border-radius: 25px;
+}
+
+.top-row > img {
+    justify-self: end;
+    margin-right: 85px;
+}
+
+.top-row > .profile-photo {
+    border-radius: 50%;
+    width: 50px;
+    justify-self: center;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 50px;
+    justify-self: center;
 }
 
 .bottom-row {
@@ -65,7 +86,7 @@ body {
 
 .bottom-row > button {
     height: 40%;
-    margin-right: 10px;
+    margin-right: 50px;
     background-color: #3b82f6;
     border-radius: 25px;
     color: #eff6ff;
