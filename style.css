@@ -1,3 +1,7 @@
+:root {
+
+}
+
 body {
     width: 100vw;
     height: 100vh;
@@ -10,8 +14,7 @@ body {
 .sidebar {
     grid-row: 1 / 3;
     grid-column: 1 / 2;
-    background-color: blue;
-    border: 1px solid black;
+    background-color: #3b82f6;
 
     display: grid;
     grid-template-rows: repeat(12, 1fr) 4fr;
@@ -19,17 +22,23 @@ body {
 }
 
 .sidebar > a {
-    color: white;
+    color: #eff6ff;
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
     align-self: center;
 }
 
+.sidebar > img {
+    align-self: center;
+    justify-self:end;
+    margin-right: 15px;
+}
+
 .header {
     grid-row: 1 / 2;
     grid-column: 2 / 3;
-    background-color: red;
+    background-color: #eff6ff;
 
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -43,6 +52,9 @@ body {
 
 .top-row > input[type="search"] {
     height: 30%;
+    background-color: #dbeafe;
+    border: none;
+    border-radius: 25px;
 }
 
 .bottom-row {
@@ -54,12 +66,20 @@ body {
 .bottom-row > button {
     height: 40%;
     margin-right: 10px;
+    background-color: #3b82f6;
+    border-radius: 25px;
+    color: #eff6ff;
+    border: none;
+}
+
+.bottom-row > button:active {
+    background-color: #2563eb;
 }
 
 .main-content {
     grid-row: 2 / 3;
     grid-column: 2 / 3;
-    background-color: brown;
+    background-color: #dbeafe;
 
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -86,7 +106,7 @@ body {
 }
 
 .card {
-    background-color: antiquewhite;
+    background-color: #eff6ff;
     border-radius: 5px;
 }
 
@@ -96,7 +116,7 @@ body {
 }
 
 .side-card {
-    background-color: beige;
+    background-color: #eff6ff;
     border-radius: 5px;
 }
 
